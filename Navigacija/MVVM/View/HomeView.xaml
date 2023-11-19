@@ -8,6 +8,17 @@
              d:DesignHeight="450" d:DesignWidth="800"
              Background="#252525">
     <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
             
+            <TextBlock Text="Home"
+                       FontSize="25"
+                       Foreground="White"/>
+
+            <Button Content="Settings"
+                    Height="25"
+                    Command="{Binding NavigateToSettingsCommand}"/>
+            
+        </StackPanel>
     </Grid>
 </UserControl>
